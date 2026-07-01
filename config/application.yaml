@@ -1,0 +1,8 @@
+name: tones
+author: ""
+clients:
+  player:
+    runtime: browser
+    default: true
+  score:
+    runtime: browser
