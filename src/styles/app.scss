@@ -104,6 +104,16 @@ body.loading {
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
+
+  .transport-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .timing {
+    font-size: 1.4rem;
+  }
 }
 
 .globals {
@@ -117,20 +127,5 @@ body.loading {
     flex-direction: column;
     gap: 4px;
     font-size: 1.2rem;
-  }
-}
-
-table.score {
-  border-collapse: collapse;
-
-  th, td {
-    padding: 6px 10px;
-    text-align: left;
-    border-bottom: 1px solid var(--sw-lighter-background-color);
-    font-size: 1.2rem;
-  }
-
-  sc-text {
-    width: 60px;
   }
 }

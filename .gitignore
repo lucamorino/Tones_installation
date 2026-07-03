@@ -2,6 +2,7 @@
 /node_modules
 .build
 .data
+*.mp3
 
 # ignore all environment config files except default
 /config/env-*
